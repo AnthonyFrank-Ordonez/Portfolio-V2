@@ -32,7 +32,6 @@ export function Header() {
   return (
     <header className="w-full px-2 py-2">
       <div className="flex items-center justify-between">
-        {/* Logo */}
         <div className="flex items-center gap-1">
           <img
             src={isDark ? '/img/Logo-dark.png' : '/img/Logo.png'}
@@ -42,10 +41,9 @@ export function Header() {
           <span className="font-rubik text-lg font-bold">Tony.Dev</span>
         </div>
 
-        {/* Dark Mode Toggle */}
         <button
           onClick={toggleDarkMode}
-          className="rounded-full p-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+          className="cursor-pointer rounded-full p-2 hover:bg-gray-200 dark:hover:bg-gray-700"
           aria-label="Toggle dark mode"
         >
           {isDark ? (

@@ -2,6 +2,7 @@ import './App.css'
 import { Layout } from './components/Layout'
 import { Header } from './components/Header'
 import { Profile } from './components/Profile'
+import { About } from './components/About'
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         <Profile />
       </div>
 
-      <div className="col-span-1 lg:col-span-9">{/* Main Content Here */}</div>
+      <div className="col-span-1 lg:col-span-9">
+        <About />
+      </div>
     </Layout>
   )
 }

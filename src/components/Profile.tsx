@@ -1,6 +1,6 @@
 export function Profile() {
   return (
-    <div className="mt-2 flex items-center gap-3 lg:flex-col lg:items-start lg:gap-4 lg:rounded-md lg:border lg:p-3 lg:dark:border-white/5 lg:dark:bg-white/5">
+    <div className="mt-2 flex items-center gap-3 lg:flex-col lg:items-start lg:gap-4 lg:rounded-md lg:border lg:border-white/5 lg:p-3 lg:shadow-sm lg:dark:border-white/5 lg:dark:bg-white/3">
       <div className="shrink-0 lg:w-full">
         <img
           src="img/me.JPG"
