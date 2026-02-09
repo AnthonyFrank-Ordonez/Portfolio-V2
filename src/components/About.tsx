@@ -2,7 +2,7 @@ export function About() {
   return (
     <div className="mt-3 flex flex-col rounded-md border border-white/5 p-3 shadow-sm lg:mt-2 dark:bg-white/3">
       <p className="font-rubik text-lg font-bold">About</p>
-      <div className="flex flex-col items-center gap-2 text-sm md:text-base lg:text-base">
+      <div className="flex flex-col items-center gap-2 text-sm">
         <span>
           I’m an Associate Software Engineer with experience building modern web applications using
           JavaScript and TypeScript. I primarily work with React, which I use professionally, and I

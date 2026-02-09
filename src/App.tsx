@@ -3,6 +3,7 @@ import { Layout } from './components/Layout'
 import { Header } from './components/Header'
 import { Profile } from './components/Profile'
 import { About } from './components/About'
+import { Techstack } from './components/Techstack'
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
         <Profile />
       </div>
 
-      <div className="col-span-1 lg:col-span-9">
+      <div className="col-span-1 lg:col-span-9 lg:space-y-3">
         <About />
+        <Techstack />
       </div>
     </Layout>
   )
