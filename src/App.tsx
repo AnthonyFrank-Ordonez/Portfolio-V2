@@ -1,12 +1,20 @@
 import './App.css'
+import { Layout } from './components/Layout'
+import { Header } from './components/Header'
 
 function App() {
   return (
-    <>
-      <div className="flex h-screen w-screen items-center justify-center">
-        <h1 className="text-4xl font-bold">Hello World</h1>
+    <Layout>
+      {/* Header */}
+      <div className="col-span-1 lg:col-span-12">
+        <Header />
       </div>
-    </>
+
+      {/* Content */}
+      <div className="col-span-1 lg:col-span-4">{/* My Picture */}</div>
+
+      <div className="col-span-1 lg:col-span-8">{/* Main Content Here */}</div>
+    </Layout>
   )
 }
 
