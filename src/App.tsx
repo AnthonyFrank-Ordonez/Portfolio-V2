@@ -1,6 +1,7 @@
 import './App.css'
 import { Layout } from './components/Layout'
 import { Header } from './components/Header'
+import { Profile } from './components/Profile'
 
 function App() {
   return (
@@ -11,9 +12,12 @@ function App() {
       </div>
 
       {/* Content */}
-      <div className="col-span-1 lg:col-span-4">{/* My Picture */}</div>
+      <div className="col-span-1 lg:sticky lg:top-8 lg:col-span-3 lg:self-start">
+        {/* My Picture */}
+        <Profile />
+      </div>
 
-      <div className="col-span-1 lg:col-span-8">{/* Main Content Here */}</div>
+      <div className="col-span-1 lg:col-span-9">{/* Main Content Here */}</div>
     </Layout>
   )
 }
