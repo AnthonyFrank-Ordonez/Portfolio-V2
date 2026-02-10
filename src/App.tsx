@@ -5,6 +5,7 @@ import { Profile } from './components/Profile'
 import { About } from './components/About'
 import { Techstack } from './components/Techstack'
 import { Experience } from './components/Experience'
+import { Projects } from './components/Projects'
 
 function App() {
   return (
@@ -23,7 +24,16 @@ function App() {
       <div className="col-span-1 lg:col-span-9 lg:space-y-3">
         <About />
         <Techstack />
-        <Experience />
+
+        <div className="mt-3 grid grid-cols-1 gap-3 lg:mt-2 lg:grid-cols-12">
+          <div className="col-span-1 lg:col-span-6">
+            <Experience />
+          </div>
+
+          <div className="col-span-1 lg:col-span-6">
+            <Projects />
+          </div>
+        </div>
       </div>
     </Layout>
   )
