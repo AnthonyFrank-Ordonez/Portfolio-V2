@@ -1,0 +1,13 @@
+node_modules
+
+# Git
+.git
+.gitignore
+
+# Environment variables
+.env
+
+# IDE/editor files
+.vscode
+.idea
+.DS_Store
