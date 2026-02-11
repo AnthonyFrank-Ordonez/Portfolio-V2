@@ -29,7 +29,7 @@ export function Experience() {
             <div className="animate-blink z-10 mt-1 h-2 w-2 shrink-0 bg-black dark:bg-white"></div>
             <div className="my-2 w-px flex-1 bg-black/10 dark:bg-white/10"></div>
           </div>
-          <div className="flex-1 pb-10">
+          <div className="flex-1 pb-8">
             <p className="font-rubik leading-none font-medium">Associate Software Engineer</p>
             <div className="mt-1 flex items-center justify-between text-xs opacity-80">
               <p>Qstrike Innovations Phils., OPC</p>
