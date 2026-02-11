@@ -7,6 +7,7 @@ import { Techstack } from './components/Techstack'
 import { Experience } from './components/Experience'
 import { Projects } from './components/Projects'
 import { Socials } from './components/Socials'
+import { Connect } from './components/Connect'
 
 function App() {
   return (
@@ -42,7 +43,7 @@ function App() {
           </div>
 
           <div className="col-span-1 lg:col-span-6">
-            <Projects />
+            <Connect />
           </div>
         </div>
       </div>
