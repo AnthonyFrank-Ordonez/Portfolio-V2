@@ -8,6 +8,7 @@ import { Experience } from './components/Experience'
 import { Projects } from './components/Projects'
 import { Socials } from './components/Socials'
 import { Connect } from './components/Connect'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -46,6 +47,10 @@ function App() {
             <Connect />
           </div>
         </div>
+      </div>
+
+      <div className="col-span-1 lg:col-span-12">
+        <Footer />
       </div>
     </Layout>
   )
