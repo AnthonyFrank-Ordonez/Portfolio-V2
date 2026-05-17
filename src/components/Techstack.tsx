@@ -1,5 +1,14 @@
 export function Techstack() {
-  const frontEnd = ['Typescript', 'Javascript', 'React', 'Vue.Js', 'Angular', 'Tailwind CSS']
+  const frontEnd = [
+    'Typescript',
+    'Javascript',
+    'React',
+    'Vue.Js',
+    'Angular',
+    'Tailwind CSS',
+    'HTML5',
+    'CSS3'
+  ]
   const backEnd = ['Node.js', 'Express.js', 'ASP.NET', 'PostgreSQL', 'MongoDB']
   const tools = ['Git', 'Docker', 'Coolify', 'Github Actions', 'Postman']
 
