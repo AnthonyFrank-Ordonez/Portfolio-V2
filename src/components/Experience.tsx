@@ -33,7 +33,7 @@ export function Experience() {
             <p className="font-rubik leading-none font-medium">Associate Software Engineer</p>
             <div className="mt-1 flex items-center justify-between text-xs opacity-80">
               <p>Qstrike Innovations Phils., OPC</p>
-              <p>July 2025 - Present</p>
+              <p>July 2024 - Present</p>
             </div>
             <p className="mt-2 text-xs leading-relaxed opacity-70">
               Builds high-performance R&D projects and dynamic logo customization systems using
@@ -63,7 +63,7 @@ export function Experience() {
             <p className="font-rubik leading-none font-medium">Software Engineer Intern</p>
             <div className="mt-1 flex items-center justify-between text-xs opacity-80">
               <p>Qstrike Innovations Phils., OPC</p>
-              <p>Mar 2025 - Jun 2025</p>
+              <p>Mar 2024 - Jun 2024</p>
             </div>
             <p className="mt-2 text-xs leading-relaxed opacity-70">
               Resolved production-critical bugs and refactored legacy templates in Laravel/PHP
